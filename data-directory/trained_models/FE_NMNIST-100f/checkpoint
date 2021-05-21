@@ -1,0 +1,8 @@
+model_checkpoint_path: "ckpt_step20800_macrec0.43093-8"
+all_model_checkpoint_paths: "ckpt_step17600_macrec0.19726-6"
+all_model_checkpoint_paths: "ckpt_step18800_macrec0.22525-7"
+all_model_checkpoint_paths: "ckpt_step20800_macrec0.43093-8"
+all_model_checkpoint_timestamps: 1605670634.319206
+all_model_checkpoint_timestamps: 1605674746.670947
+all_model_checkpoint_timestamps: 1605681598.6270206
+last_preserved_timestamp: 1605610373.9159105
