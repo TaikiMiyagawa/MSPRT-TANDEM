@@ -11,7 +11,7 @@ This repository contains MSPRT-TANDEM, including the Log-Sum-Exp Loss (LSEL), pr
 - cuDNN 7.6.0
 - Jupyter Notebook 4.4.0
 - Optuna 0.14.0
-
+ 
 
 ## Quick Start
 1. Create NMNIST-H and NMNSIT-100f.
