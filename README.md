@@ -97,13 +97,12 @@ This repository contains MSPRT-TANDEM, including the Log-Sum-Exp Loss (LSEL), pr
 ## Citation
 ___Please cite our paper if you use the whole or a part of our codes.___
 ```
-Bibtex: To be updated.
+To be replaced with the ICML bibtex.
 
-@inproceedings{
-  miyagawa2021sequential,
-  title={...},
-  author={Taiki Miyagawa and Akinori F. Ebihara},
-  ...
+@article{MSPRT-TANDEM,
+  title={The Power of Log-Sum-Exp: Sequential Density Ratio Matrix Estimation for Speed-Accuracy Optimization},
+  author={Miyagawa, Taiki and Ebihara, Akinori F},
+  journal={arXiv preprint arXiv:2105.13636},
+  year={2021}
 }
-
 ```
