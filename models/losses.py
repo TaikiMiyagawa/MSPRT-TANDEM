@@ -649,7 +649,7 @@ class LossDRE():
         raise ValueError("loss_type = 'RuLSIF' is not currently supported.")
 
     def Logistic(self, llrs, labels_oh, weights):
-        """ The log-sum-exp loss (LSEL). Positive, consistent, numerically stable, and efficient.
+        """ The logistic loss.
         Args:
             llrs: A float Tensor with shape (batch, duration, num classes, num classes).
                 LLR matrices.
