@@ -97,8 +97,24 @@ This repository contains MSPRT-TANDEM, including the Log-Sum-Exp Loss (LSEL), pr
 ## Citation
 ___Please cite our paper if you use the whole or a part of our codes.___
 ```
-To be replaced with the ICML bibtex.
+ICML
+@InProceedings{MSPRT-TANDEM,
+  title = 	 {The Power of Log-Sum-Exp: Sequential Density Ratio Matrix Estimation for Speed-Accuracy Optimization},
+  author =       {Miyagawa, Taiki and Ebihara, Akinori F},
+  booktitle = 	 {Proceedings of the 38th International Conference on Machine Learning},
+  pages = 	 {7792--7804},
+  year = 	 {2021},
+  editor = 	 {Meila, Marina and Zhang, Tong},
+  volume = 	 {139},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {18--24 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v139/miyagawa21a/miyagawa21a.pdf},
+  url = 	 {http://proceedings.mlr.press/v139/miyagawa21a.html},
+  abstract = 	 {We propose a model for multiclass classification of time series to make a prediction as early and as accurate as possible. The matrix sequential probability ratio test (MSPRT) is known to be asymptotically optimal for this setting, but contains a critical assumption that hinders broad real-world applications; the MSPRT requires the underlying probability density. To address this problem, we propose to solve density ratio matrix estimation (DRME), a novel type of density ratio estimation that consists of estimating matrices of multiple density ratios with constraints and thus is more challenging than the conventional density ratio estimation. We propose a log-sum-exp-type loss function (LSEL) for solving DRME and prove the following: (i) the LSEL provides the true density ratio matrix as the sample size of the training set increases (consistency); (ii) it assigns larger gradients to harder classes (hard class weighting effect); and (iii) it provides discriminative scores even on class-imbalanced datasets (guess-aversion). Our overall architecture for early classification, MSPRT-TANDEM, statistically significantly outperforms baseline models on four datasets including action recognition, especially in the early stage of sequential observations. Our code and datasets are publicly available.}
+}
 
+(arXiv; cite the ICML version.)
 @article{MSPRT-TANDEM,
   title={The Power of Log-Sum-Exp: Sequential Density Ratio Matrix Estimation for Speed-Accuracy Optimization},
   author={Miyagawa, Taiki and Ebihara, Akinori F},
