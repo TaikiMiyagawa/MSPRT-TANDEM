@@ -1,5 +1,8 @@
 
 # MSPRT-TANDEM and LSEL
+- See tutorial for (M)SPRT-TANDEM: https://github.com/Akinori-F-Ebihara/SPRT-TANDEM_tutorial
+- See PyTorch version: https://github.com/Akinori-F-Ebihara/SPRT-TANDEM-PyTorch
+
 ## Introduction
 This repository contains MSPRT-TANDEM, including the Log-Sum-Exp Loss (LSEL), proposed in ["The Power of Log-Sum-Exp: Sequential Density Ratio Estimation for Spped-Accuracy Optimization"](http://proceedings.mlr.press/v139/miyagawa21a.html) [ICML2021]. MSPRT-TANDEM performs early multiclass classification of time-series. MSPRT-TANDEM sequentially estimates log-likelihood ratios of multihypotheses, or classes, for fast and accurate sequential data classification, with the help of a novel loss function, the LSEL. We prove in our paper that the LSEL is consistent, has the hard class weighting effect, and guess-averse. 
 
